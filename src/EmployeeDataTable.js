@@ -77,7 +77,7 @@ const EmployeeDataTable = () => {
       <div style={{ marginTop: "10px", textAlign: "center" }}>
         <button
           onClick={handlePrevious}
-          disabled={currentPage === 1}
+          // disabled={currentPage === 1}
           style={{ marginRight: "10px" }}
         >
           Previous
@@ -85,7 +85,7 @@ const EmployeeDataTable = () => {
         <span>{currentPage}</span>
         <button
           onClick={handleNext}
-          disabled={currentPage === totalPages}
+          // disabled={currentPage === totalPages}
           style={{ marginLeft: "10px" }}
         >
           Next
